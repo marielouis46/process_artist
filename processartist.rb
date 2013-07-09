@@ -75,7 +75,7 @@ class ProcessArtist < Processing::App
 		when "s5" then rect(mouse_x,mouse_y, @size,@size)
 		when "s6" then oval(mouse_x,mouse_y,@size,@size)
 		else 
-			warn "I dont know that command"
+			warn "I don't know that command"
 		end
 	end
 
